@@ -14,7 +14,8 @@ public class Reverse_Words_in_a_String {
 		for (int i = arr.length - 1; i >= 0; i--) {
 			ans = ans + arr[i] + " ";
 		}
-		System.out.println(ans);
+		System.out.println(ans.trim());
 	}
 
 }
+
