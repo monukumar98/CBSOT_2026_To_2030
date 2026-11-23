@@ -11,6 +11,7 @@ public class Palindrome_Partitioning {
 		List<String> ll = new ArrayList<>();
 		List<List<String>> ans = new ArrayList<>();
 		Partitioning(s,ll,ans);
+		System.out.println(ans);
 
 	}
 
